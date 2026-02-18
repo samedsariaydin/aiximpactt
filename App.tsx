@@ -237,14 +237,6 @@ export default function App() {
                 <p>{t.about_desc1}</p>
                 <p>{t.about_desc2}</p>
               </div>
-              <div className="flex flex-wrap gap-4">
-                <button onClick={() => scrollToSection('contact')} className="px-8 py-5 bg-blue-600 hover:bg-blue-700 text-white rounded-2xl font-black text-sm uppercase tracking-widest shadow-xl shadow-blue-500/30 transition-all active:scale-95">
-                  {lang === 'TR' ? 'KATILIM SAĞLA' : 'GET INVOLVED'}
-                </button>
-                <button onClick={() => scrollToSection('thematic')} className="px-8 py-5 bg-zinc-100 dark:bg-zinc-900 hover:bg-zinc-200 dark:hover:bg-zinc-800 text-black dark:text-white rounded-2xl font-black text-sm uppercase tracking-widest transition-all">
-                  {t.nav_thematic}
-                </button>
-              </div>
             </div>
             <div className="relative">
               <div className="absolute -top-20 -right-20 w-96 h-96 bg-blue-500/10 rounded-full blur-[120px] animate-pulse"></div>
